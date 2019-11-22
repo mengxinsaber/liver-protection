@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class TestDao {
     public User getUser(){
         User user = new User();
-        user.setName("holler world!");
+        user.setName("holler world");
         return user;
     }
 }
